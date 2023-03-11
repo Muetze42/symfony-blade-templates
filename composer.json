@@ -1,0 +1,28 @@
+{
+    "name": "norman-huth/symfony-blade-templates",
+    "homepage": "https://github.com/Muetze42/symfony-blade-templates",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NormanHuth\\SymfonyBladeTemplates\\": "src/"
+        },
+        "files": [
+            "functions/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Norman Huth",
+            "homepage": "https://huth.it"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "symfony/symfony": "^5.0|^6.0",
+        "illuminate/container": "^8.0|^9.0|^10.0",
+        "illuminate/contracts": "^8.0|^9.0|^10.0",
+        "illuminate/events": "^8.0|^9.0|^10.0",
+        "illuminate/filesystem": "^8.0|^9.0|^10.0",
+        "illuminate/view": "^8.0|^9.0|^10.0"
+	}
+}
